@@ -1,0 +1,185 @@
+{
+    "name": "TheInput",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "f788455f-2667-4011-87d9-68114466af17",
+            "actions": [
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "2e9b3ed1-6556-4334-9e50-97b45e5324cd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "OpenInventory",
+                    "type": "Button",
+                    "id": "50dc90f7-ac36-4b27-ba63-0f8c2523fbb3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "ChangeRobot",
+                    "type": "Button",
+                    "id": "dd248836-4e26-4929-a383-939023282316",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Zoom",
+                    "type": "Value",
+                    "id": "94c3d548-d279-4e70-8a3f-945b3470f648",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Arrange",
+                    "type": "Button",
+                    "id": "7579c0b9-e487-4122-9a51-09a66fb4b72e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Farm",
+                    "type": "Button",
+                    "id": "a3d86271-e63d-4f81-93fe-a51e01a51dd2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MotionTarget",
+                    "type": "Value",
+                    "id": "53da758c-fcd7-4a6b-8dc6-0dca299ef0b2",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire",
+                    "type": "Button",
+                    "id": "ffad5266-10b0-43ac-8851-ac88ab37becc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Walk",
+                    "type": "Button",
+                    "id": "e69667d3-40fb-409f-a72f-3f8a38a704f6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d0fd827d-35ec-4786-8485-db351fd2856d",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4111f557-438f-4525-a3bd-a561f5843396",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OpenInventory",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "eb4b7434-26c4-4acc-913b-d229848062a3",
+                    "path": "<Mouse>/scroll/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Zoom",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8df770ce-c814-4eec-84af-fadd6cc1bfed",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Arrange",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6720bdc5-0c29-48b2-9d56-5d3bb805c2ea",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Farm",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "604e4a57-5a1f-4916-b9f5-22a6f4ab660f",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MotionTarget",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "09811b82-b15d-49e0-9872-029520041d8f",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1b6b4de4-3fde-4add-ab00-b17b974bae71",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Walk",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fba48e8b-6df0-4f36-8902-9c633a5f0afe",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChangeRobot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

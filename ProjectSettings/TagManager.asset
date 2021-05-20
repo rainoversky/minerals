@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - ActivatorCollider
+  - ItemSlot
+  - RobotItemSlot
+  - Inventory
+  - BackPack
+  - Storage
+  - EquippedGems
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Robot
+  - Enemy
+  - Bullet
+  - FogOfWar
+  - FogAperture
+  - MinMap
+  - Mineral
+  - 
+  - Consumable
+  - Drop
+  - Floor
+  - ZoneGenerationVolume
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UIHover
+    uniqueID: 1307633691
+    locked: 0
